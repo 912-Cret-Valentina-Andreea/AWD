@@ -156,7 +156,6 @@ footer p {
     font-family: 'Georgia', serif;
     font-size  : 1.1em;
     line-height: 1.8;
-    /* text-align : justify; */
 }
 
 .container::before {
@@ -224,19 +223,19 @@ blockquote {
     justify-content    : center;
     align-items        : center;
     margin  : 0;
-    padding : 10px; /* Ensure consistency */
+    padding : 10px;
     box-sizing: border-box;
 }
 
 .flip-card-front {
     background-color: #ff758c;
-    color           : white;
+    color           : black;
     font-size       : 1.5em;
     font-family     : 'Georgia', serif;
 }
 
 .flip-card-back {
-    background-color: #c95497;
+    background-color: #a8417c;
     color           : white;
     transform       : rotateY(180deg);
     font-family     : 'Georgia', serif;
@@ -314,8 +313,8 @@ blockquote {
         max-width: 180px;
     }
     .flip-card-back {
-        font-size: 0.8em; /* Reduce font size for smaller screens */
-        padding  : 10px;  /* Adjust padding */
+        font-size: 0.8em;
+        padding  : 10px;
     }
 }
 
@@ -348,8 +347,8 @@ blockquote {
         font-size: 0.8em;
     }
     .flip-card-back {
-        font-size: 0.8em; /* Reduce font size for smaller screens */
-        padding  : 10px;  /* Adjust padding */
+        font-size: 0.8em;
+        padding  : 10px;
     }
 }
 
@@ -371,19 +370,19 @@ blockquote {
     }
     .flip-card-front,
     .flip-card-back {
-        font-size   : 0.6em; /* Smaller text size */
-        padding     : 8px;   /* Adjust padding to fit smaller size */
-        line-height : 1.2;   /* Adjust line height for readability */
+        font-size   : 0.6em;
+        padding     : 8px;
+        line-height : 1.2;
     }
 
     .flip-card-front {
         display     : flex;
         justify-content: center;
         align-items : center;
-        font-size   : 1em; /* Adjust front text size */
+        font-size   : 1em;
     }
 
     .flip-card-back {
-        overflow: auto; /* Allow scrolling for longer text */
+        overflow: auto;
     }
 }
